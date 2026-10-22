@@ -162,11 +162,6 @@ tests/                   Unit and database contract tests
 e2e/                     Headless browser workflow test
 ```
 
-## License and component attribution
+## License
 
-MIT — see [LICENSE.md](LICENSE.md). The shadcn/ui components in
-`src/components/ui` are derived from [shadcn/ui](https://github.com/shadcn-ui/ui),
-Copyright (c) 2023 shadcn, MIT licensed. Their license notice is retained in
-`src/components/ui/LICENSE.md`. The sources use the unified `radix-ui` package.
-`scripts/fetch-shadcn.mjs` is an optional network-dependent maintainer utility;
-normal installation and application runtime do not fetch component source.
+MIT — see [LICENSE.md](LICENSE.md).
