@@ -121,21 +121,6 @@ audit reported upstream development-tool advisories in the ESLint glob dependenc
 chain and Drizzle Kit's legacy esbuild loader. Review those separately; the automatic
 forced fixes suggest incompatible downgrades and are not applied.
 
-## Privacy and sharing
-
-Use Faker-generated data for development and training. Seed and test names and phone numbers
-are generated at runtime; tests use fixed seeds for reproducibility and the seed command uses
-a fresh random seed each run. No contact values are hardcoded. Public car brands and models
-can be hardcoded. PostgreSQL examples contain explicit
-credential placeholders, not working credentials.
-
-Do not share the entire working directory. Local databases can contain customer information,
-and build caches, logs, and browser artifacts can contain submitted values or machine paths.
-These are excluded from Git alongside private environment files. Share only reviewed source,
-configuration templates, migrations, and the lockfile. A Git ignore rule does not sanitize
-existing databases or protect a manually copied folder. Runtime errors log fixed messages
-instead of raw database exceptions or form values. Required third-party license notices remain.
-
 ## Formatting conventions
 
 ```sh
